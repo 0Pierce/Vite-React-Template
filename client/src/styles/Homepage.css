@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+}
+
+.homepageBody{
+    width: 100%;
+    height: 95vh;
+
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
