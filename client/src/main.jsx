@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client'
 
 import './index.css'
 import {
-  BrowserRouter,
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
