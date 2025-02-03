@@ -3,7 +3,7 @@ The template contains a react-router-dom header and standard footer with 2 blank
 
 Installation: ```cd client``` -> ```npm i```
  
-Run it: ```npm run dev```
+Run it: ```cd client``` -> ```npm run dev```
 
 
 ![a77e55c751f6e2e62341fd468990f8c0](https://github.com/user-attachments/assets/6da8b06c-4a18-442b-99a8-fce506e08ffb)
