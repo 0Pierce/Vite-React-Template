@@ -1,17 +1,15 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-
 import './index.css'
+
+
+import Homepage from "./pages/HomePage.tsx"
+import Examplepage from "./pages/ExamplePage.tsx"
+
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-
-import Homepage from "/src/pages/Homepage.jsx"
-import Examplepage from "/src/pages/Examplepage.jsx"
-
-
-
 
 
 const mainRouter = createBrowserRouter([
@@ -32,11 +30,8 @@ const mainRouter = createBrowserRouter([
 
 ])
 
-
-
-
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <RouterProvider router={mainRouter}/>
+     <RouterProvider router={mainRouter}/>
   </StrictMode>,
 )
